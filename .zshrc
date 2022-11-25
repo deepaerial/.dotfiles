@@ -60,9 +60,9 @@ export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
-alias ls="exa --icons"
-alias la="exa --icons --long --all"
-alias tree="exa --tree --level=2"
+alias ls="exa --icons --group-directories-first"
+alias la="exa --icons --long --group-directories-first --all"
+alias tree="exa --tree --group-directories-first --level=2"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform

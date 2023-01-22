@@ -63,6 +63,7 @@ alias vim="nvim"
 alias ls="exa --icons --group-directories-first"
 alias la="exa --icons --long --group-directories-first --all"
 alias tree="exa --tree --group-directories-first --level=2"
+alias loadenv="set -o allexport; source .env; set +o allexport"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform

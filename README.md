@@ -9,6 +9,18 @@ To setup dotfiles on your environment you need:
 
 # Setup
 
+## Installing Antigen
+Install [antigen](https://github.com/zsh-users/antigen) plugin manager for `zsh`.
+```shell
+curl -L git.io/antigen > .antigen.zsh
+```
+
+## Installing casks from Brewfile
+```shell
+$ brew bundle
+```
+
+## Linking .files to $HOME
 To create symlinks to your dotfiles run `makesymlinks.sh` script:
 ```
 $ ./makesymlinks.sh

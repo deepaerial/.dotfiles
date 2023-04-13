@@ -20,7 +20,7 @@ curl -L git.io/antigen > .antigen.zsh
 $ brew bundle
 ```
 
-## Run setip script
+## Run setup script
 To setup all your dotfiles and preferred configurations for machine run following command:
 ```shell
 $ ./setup.sh

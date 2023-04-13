@@ -20,11 +20,11 @@ curl -L git.io/antigen > .antigen.zsh
 $ brew bundle
 ```
 
-## Linking .files to $HOME
-To create symlinks to your dotfiles run `makesymlinks.sh` script:
+## Run setip script
+To setup all your dotfiles and prefreed configurtaions for machine run following command:
+```shell
+$ ./setup.sh
 ```
-$ ./makesymlinks.sh
-``` 
 ## License
 
 Copyright &copy; 2022 deepaerial.

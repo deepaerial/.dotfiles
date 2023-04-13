@@ -21,7 +21,7 @@ $ brew bundle
 ```
 
 ## Run setip script
-To setup all your dotfiles and prefreed configurtaions for machine run following command:
+To setup all your dotfiles and preferred configurations for machine run following command:
 ```shell
 $ ./setup.sh
 ```

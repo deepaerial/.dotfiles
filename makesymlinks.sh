@@ -1,13 +1,16 @@
 #!/bin/bash
 # Setup script heavily inpired by https://github.com/paulirish/dotfiles/blob/main/symlink-setup.sh
-
+SCRIPT_NAME=$(basename "$0")
 declare SUCCESS_COLOR="\033[32m"
 declare ERROR_COLOR="\033[31m"
 declare QUESTION_COLOR="\033[33m"
 declare INFO_COLOR="\033[35m"
 declare NOCOLOR="\033[0m"
-declare FILESTOIGNORE=(
+declare -a FILESTOIGNORE=(
+    $SCRIPT_NAME
+    .git
     setup.sh
+    bootstrap.sh
     README.md
     LICENSE
 )
@@ -41,7 +44,7 @@ function answer_is_yes() {
 }
 
 function create_symlinks() {
-    local DOTFILES=$(find . -type f -maxdepth 1 -name "*" -not -name .git -not -name makesymlinks.sh -not -name README.md -not -name LICENSE | sed -e 's|./||')
+    local DOTFILES=$(find . -type f -maxdepth 1 -name "*" $(printf " -not -name %s" "${FILESTOIGNORE[@]}") | sed -e 's|./||')
     for file in $DOTFILES
     do
         source_path="$(pwd)/$file"

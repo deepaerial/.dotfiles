@@ -25,6 +25,11 @@ To setup all your dotfiles and preferred configurations for machine run followin
 ```shell
 $ ./setup.sh
 ```
+
+## Creating Brewfile
+```shell
+$ brew bundle dump --force --describe
+```
 ## License
 
 Copyright &copy; 2022 deepaerial.

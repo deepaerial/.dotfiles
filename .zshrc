@@ -69,3 +69,5 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
 # Completions for pipx
 eval "$(register-python-argcomplete pipx)"
+# Activation of direnv
+eval "$(direnv hook zsh)"

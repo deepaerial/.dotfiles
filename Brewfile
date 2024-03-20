@@ -8,16 +8,14 @@ tap "teamookla/speedtest"
 brew "ack"
 # Record and share terminal sessions
 brew "asciinema"
+# C library implementing the SSH2 protocol
+brew "libssh2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Core application library for C
 brew "glib"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# Tool Command Language
-brew "tcl-tk"
+# Vector graphics library with cross-device output support
+brew "cairo"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Modern replacement for 'ls'
@@ -34,6 +32,8 @@ brew "harfbuzz"
 brew "libarchive"
 # Subtitle renderer for the ASS/SSA subtitle format
 brew "libass"
+# C library SSHv1/SSHv2 client and server protocols
+brew "libssh"
 # Secure Reliable Transport
 brew "srt"
 # OCR (Optical Character Recognition) engine
@@ -54,20 +54,22 @@ brew "libtool"
 brew "guile"
 # Improved top (interactive process viewer)
 brew "htop"
+# Database of common MIME types
+brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
-# Network authentication protocol
-brew "krb5"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Kubernetes command-line interface
 brew "kubernetes-cli", link: false
 # General purpose TCP-IP emulator
 brew "libslirp"
-# C library SSHv1/SSHv2 client and server protocols
-brew "libssh"
-# C library implementing the SSH2 protocol
-brew "libssh2"
 # List USB devices, just like the Linux lsusb command
 brew "lsusb"
 # Terminal-based visual file manager
@@ -86,6 +88,8 @@ brew "nmap"
 brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Drop-in replacement for Terraform. Infrastructure as Code Tool
+brew "opentofu"
 # Python dependency management tool
 brew "pipenv"
 # Execute binaries from Python packages in isolated environments
@@ -98,6 +102,8 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
+# Tool Command Language
+brew "tcl-tk"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
 # Generic machine emulator and virtualizer
@@ -116,7 +122,7 @@ brew "tree"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
-# Fork of youtube-dl with additional features and fixes
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Terraform
 brew "hashicorp/tap/terraform"
@@ -134,21 +140,21 @@ cask "hashicorp-vagrant"
 cask "iterm2"
 # File system integration
 cask "osxfuse"
-# Virtualizer for x86 hardware
+# Virtualiser for x86 hardware
 cask "virtualbox"
-# VSCode extensions
 vscode "alefragnani.project-manager"
 vscode "charliermarsh.ruff"
 vscode "dbaeumer.vscode-eslint"
 vscode "dsznajder.es7-react-js-snippets"
-vscode "Equinusocio.vsc-community-material-theme"
-vscode "Equinusocio.vsc-material-theme"
+vscode "eamodio.gitlens"
+vscode "equinusocio.vsc-material-theme"
 vscode "equinusocio.vsc-material-theme-icons"
 vscode "firefox-devtools.vscode-firefox-debug"
-vscode "GitHub.codespaces"
-vscode "GitHub.copilot"
-vscode "GitHub.copilot-chat"
+vscode "github.codespaces"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
+vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "hashicorp.terraform"
 vscode "idleberg.applescript"
@@ -157,6 +163,7 @@ vscode "mikestead.dotenv"
 vscode "ms-azuretools.vscode-azureterraform"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.black-formatter"
+vscode "ms-python.debugpy"
 vscode "ms-python.isort"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
@@ -172,8 +179,8 @@ vscode "ms-vscode.live-server"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.vscode-typescript-next"
 vscode "octref.vetur"
-vscode "PKief.material-icon-theme"
-vscode "ritwickdey.LiveServer"
+vscode "pkief.material-icon-theme"
+vscode "ritwickdey.liveserver"
 vscode "rubbersheep.gi"
 vscode "ryanluker.vscode-coverage-gutters"
 vscode "znck.grammarly"

@@ -94,8 +94,6 @@ brew "opentofu"
 brew "pipenv"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
-# Object-relational database system
-brew "postgresql@14"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
@@ -114,8 +112,6 @@ brew "ruby-build"
 brew "rbenv"
 # User interface to the TELNET protocol
 brew "telnet"
-# Program that allows you to count code, quickly
-brew "tokei"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
@@ -139,8 +135,6 @@ cask "hashicorp-vagrant"
 cask "iterm2"
 # File system integration
 cask "osxfuse"
-# Virtualiser for x86 hardware
-cask "virtualbox"
 vscode "alefragnani.project-manager"
 vscode "charliermarsh.ruff"
 vscode "dbaeumer.vscode-eslint"

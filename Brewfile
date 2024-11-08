@@ -112,8 +112,6 @@ brew "openssl@1.1"
 brew "opentofu"
 # Modern Python package and dependency manager supporting the latest PEP standards
 brew "pdm"
-# Python dependency management tool
-brew "pipenv"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
@@ -138,8 +136,6 @@ brew "uv"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
-# Feature-rich command-line audio/video downloader
-brew "yt-dlp"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Tool to flash OS images to SD cards & USB drives

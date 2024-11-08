@@ -13,6 +13,7 @@ declare -a FILESTOIGNORE=(
     bootstrap.sh
     README.md
     LICENSE
+    run-sync.sh
 )
 
 function print_success() {

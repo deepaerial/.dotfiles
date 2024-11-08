@@ -30,6 +30,11 @@ $ ./setup.sh
 ```shell
 $ brew bundle dump --force --describe
 ```
+Or simply call script `./brewfile-sync.sh`.
+
+## To remember
+* If you add new script for managing dotfiles, don't forget to include it `FILESTOIGNORE` in `makesymlinks.sh`.
+
 ## License
 
 Copyright &copy; 2022 deepaerial.

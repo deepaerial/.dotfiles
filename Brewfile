@@ -6,10 +6,20 @@ tap "homebrew/core"
 tap "teamookla/speedtest"
 # Search tool like grep, but optimized for programmers
 brew "ack"
+# TIFF library and utilities
+brew "libtiff"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# New file format for still image compression
+brew "jpeg-xl"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
 # Record and share terminal sessions
 brew "asciinema"
 # C library implementing the SSH2 protocol
 brew "libssh2"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Core application library for C
@@ -28,10 +38,16 @@ brew "unbound"
 brew "gnutls"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Library for JPEG-2000 image manipulation
+brew "openjpeg"
+# Image processing and image analysis library
+brew "leptonica"
 # Multi-format archive and compression library
 brew "libarchive"
 # Subtitle renderer for the ASS/SSA subtitle format
 brew "libass"
+# Reliable Internet Stream Transport (RIST)
+brew "librist"
 # C library SSHv1/SSHv2 client and server protocols
 brew "libssh"
 # Secure Reliable Transport
@@ -42,8 +58,12 @@ brew "tesseract"
 brew "ffmpeg"
 # Command-line tools for fly.io services
 brew "flyctl"
+# GNU compiler collection
+brew "gcc"
 # GitHub command-line tool
 brew "gh"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git"
 # Generate introspection data for GObject libraries
@@ -58,10 +78,10 @@ brew "htop"
 brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+# C/C++ seam carving library
+brew "liblqr"
+# Library for reading RAW files from digital photo cameras
+brew "libraw"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
@@ -76,20 +96,22 @@ brew "lsusb"
 brew "midnight-commander"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
-# Fast, highly customisable system info script
-brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # HTTP/2 C Library
 brew "nghttp2"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
-brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Optimized BLAS library
+brew "openblas"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
+# Modern Python package and dependency manager supporting the latest PEP standards
+brew "pdm"
 # Python dependency management tool
 brew "pipenv"
 # Execute binaries from Python packages in isolated environments
@@ -98,22 +120,20 @@ brew "pipx"
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
-# Tool Command Language
-brew "tcl-tk"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
+# Tool Command Language
+brew "tcl-tk"
 # User interface to the TELNET protocol
 brew "telnet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
@@ -122,15 +142,11 @@ brew "yarn"
 brew "yt-dlp"
 # Terraform
 brew "hashicorp/tap/terraform"
-# Ookla Speedtest
-brew "teamookla/speedtest/speedtest"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 cask "font-hack-nerd-font"
-# Development environment
-cask "hashicorp-vagrant"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # File system integration
@@ -140,8 +156,10 @@ vscode "charliermarsh.ruff"
 vscode "dbaeumer.vscode-eslint"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
+vscode "editorconfig.editorconfig"
 vscode "equinusocio.vsc-material-theme"
 vscode "equinusocio.vsc-material-theme-icons"
+vscode "esbenp.prettier-vscode"
 vscode "firefox-devtools.vscode-firefox-debug"
 vscode "github.codespaces"
 vscode "github.copilot"
@@ -172,4 +190,5 @@ vscode "octref.vetur"
 vscode "pkief.material-icon-theme"
 vscode "ritwickdey.liveserver"
 vscode "ryanluker.vscode-coverage-gutters"
+vscode "vue.volar"
 vscode "znck.grammarly"

@@ -43,10 +43,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # Pyenv configuration
 eval "$(pyenv init --path)"
 
-# Poetry configuration
-export PATH="$HOME/Library/Python/3.9/bin:$PATH"
-
-#
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -58,7 +54,9 @@ alias loadenv="set -o allexport; source .env; set +o allexport"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
-# Completions for pipx
-eval "$(register-python-argcomplete pipx)"
 # Activation of direnv
 eval "$(direnv hook zsh)"
+
+fpath+=~/.zfunc; autoload -Uz compinit; compinit
+
+zstyle ':completion:*' menu select

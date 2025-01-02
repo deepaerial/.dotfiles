@@ -92,8 +92,6 @@ brew "kubernetes-cli", link: false
 brew "libslirp"
 # List USB devices, just like the Linux lsusb command
 brew "lsusb"
-# Terminal-based visual file manager
-brew "midnight-commander"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -104,8 +102,6 @@ brew "nghttp2"
 brew "nmap"
 # Libraries for security-enabled client and server applications
 brew "nss"
-# Optimized BLAS library
-brew "openblas"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
@@ -116,8 +112,6 @@ brew "pdm"
 brew "pipx"
 # Python version management
 brew "pyenv"
-# Pyenv plugin to manage virtualenv
-brew "pyenv-virtualenv"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Install various Ruby versions and implementations
@@ -134,8 +128,6 @@ brew "tree"
 brew "uv"
 # Internet file retriever
 brew "wget"
-# JavaScript package manager
-brew "yarn"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Tool to flash OS images to SD cards & USB drives
@@ -165,7 +157,7 @@ vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "hashicorp.terraform"
 vscode "idleberg.applescript"
-vscode "jpoissonnier.vscode-styled-components"
+vscode "josee9988.minifyall"
 vscode "mikestead.dotenv"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.black-formatter"
@@ -173,6 +165,7 @@ vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
 vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode-remote.remote-containers"
@@ -186,5 +179,6 @@ vscode "octref.vetur"
 vscode "pkief.material-icon-theme"
 vscode "ritwickdey.liveserver"
 vscode "ryanluker.vscode-coverage-gutters"
+vscode "tomoki1207.pdf"
 vscode "vue.volar"
 vscode "znck.grammarly"

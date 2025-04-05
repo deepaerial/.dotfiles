@@ -14,6 +14,7 @@ declare -a FILESTOIGNORE=(
     README.md
     LICENSE
     run-sync.sh
+    brewfile-sync.sh
 )
 
 function print_success() {

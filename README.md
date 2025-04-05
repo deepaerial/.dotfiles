@@ -32,6 +32,10 @@ $ brew bundle dump --force --describe
 ```
 Or simply call script `./brewfile-sync.sh`.
 
+## Saving ITerm2 settings
+
+[Link](https://shyr.io/blog/sync-iterm2-configs) to instructions.
+
 ## To remember
 * If you add new script for managing dotfiles, don't forget to include it `FILESTOIGNORE` in `makesymlinks.sh`.
 

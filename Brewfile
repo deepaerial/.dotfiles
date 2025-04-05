@@ -5,6 +5,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 # Search tool like grep, but optimized for programmers
 brew "ack"
+# Plugin manager for zsh, inspired by antigen and antibody
+brew "antidote"
 # TIFF library and utilities
 brew "libtiff"
 # Image format providing lossless and lossy compression for web images
@@ -179,4 +181,3 @@ vscode "ryanluker.vscode-coverage-gutters"
 vscode "tobiasalthoff.atom-material-theme"
 vscode "tomoki1207.pdf"
 vscode "vue.volar"
-vscode "znck.grammarly"

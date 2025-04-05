@@ -12,16 +12,13 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Geometry theme configurations
-GEOMETRY_SYMBOL_PROMPT="$"                  # default prompt symbol
-GEOMETRY_SYMBOL_RPROMPT=">"                 # multiline prompts
-GEOMETRY_SYMBOL_EXIT_VALUE="$"              # displayed when exit value is != 0
-GEOMETRY_SYMBOL_ROOT="#" 
+export GEOMETRY_STATUS_SYMBOL="$"                  # default prompt symbol 
 
 PATH="$PATH:$HOME/.local/bin"
 
-# Antigen loader
-source "$HOME/.antigen.zsh"
-antigen init "$HOME/.antigenrc"
+# Antidote loading...
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
+antidote load
 
 # Zsh-autosuggestions binding key
 # bindkey "^[[A" autosuggest-accept

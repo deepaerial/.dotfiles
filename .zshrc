@@ -12,7 +12,8 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Geometry theme configurations
-export GEOMETRY_STATUS_SYMBOL="$"                  # default prompt symbol 
+export GEOMETRY_STATUS_SYMBOL="$" # default prompt symbol 
+export GEOMETRY_STATUS_SYMBOL_ERROR="$" # error prompt symbol
 
 PATH="$PATH:$HOME/.local/bin"
 
